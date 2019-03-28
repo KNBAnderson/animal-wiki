@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Rock+Salt" rel="stylesheet">
+  <title>Animal Wiki</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="header">
+      <h1>Animal Wiki</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+    </div>
+
+    <form>
+      <div id='first-question'>
+        <label for="ageInput">Your age:</label>
+        <input id="ageInput" type="number" min="1" max="110">
+        <button type="button" class="btn btn-primary">Next</button>
+      </div>
+
+      <div class="hidden-question">
+        <h5>What animal would you like to learn about?</h5>
+        <div class="over2">
+          <div class="radio">
+            <label>
+              <input type="radio" name="pet" value="fish" checked>
+              Fish
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="pet" value="mouse">
+              Mouse
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="pet" value="tarantula">
+              Tarantula
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="pet" value="snake">
+              Snake
+            </label>
+          </div>
+        </div>
+
+        <div class="under2">
+          <div class="radio">
+            <label>
+              <input type="radio" name="pet" value="fish">
+              Fish
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="pet" value="mouse" checked>
+              Mouse
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+
+    </form>
+
+    <div id="animal-container">
+      <div class="fish">
+        <h4>Fish</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+        <img src="img/fish.jpg" alt="This is a picture of a fish.">
+      </div>
+
+      <div class="mouse">
+        <h4>Mouse</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+        <img src="img/mouse.png" alt="This is a picture of a mouse.">
+      </div>
+
+
+      <div class="tarantula">
+        <h4>Tarantula</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+        <img src="img/tarantula.jpg" alt="This is a picture of a tarantula.">
+      </div>
+
+
+      <div class="snake">
+        <h4>Snake</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+        <img src="img/snake.jpg" alt="This is a picture of a snake.">
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>
+</body>
+</html>

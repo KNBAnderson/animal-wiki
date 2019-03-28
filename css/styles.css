@@ -1,0 +1,3 @@
+.hidden-question, .under2, .over2, .mouse, .tarantula, .snake, .fish {
+  display: none;
+}
