@@ -19,17 +19,17 @@ $(function() {
       var animal = $("input:radio[name=pet]:checked").val();
       console.log(animal)
       if (animal === "mouse") {
-        $(".tarantula", ".snake", ".fish").hide();
-        $(".mouse").show();
+        $(".animal:not(#mouse)").hide();
+        $("#mouse").show();
       } else if (animal === "fish") {
-        $(".tarantula", ".snake", ".mouse").hide();
-        $(".fish").show();
+        $(".animal:not(#fish)").hide();
+        $("#fish").show();
       } else if (animal === "snake") {
-        $(".tarantula", ".fish", ".mouse").hide();
-        $(".snake").show();
+        $(".animal:not(#snake)").hide();
+        $("#snake").show();
       } else if (animal === "tarantula") {
-        $(".fish", ".snake", ".mouse").hide();
-        $(".tarantula").show();
+        $(".animal:not(#tarantula)").hide();
+        $("#tarantula").show();
       } else {
         console.log("Error with animal");
       }
